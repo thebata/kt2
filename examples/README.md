@@ -17,6 +17,10 @@ Runnable Python examples for the KT2, using only the standard library.
   so this checks for one on your specific unit and otherwise plays a custom
   routine built only from confirmed-working moves (kicks, punches, flips,
   turns) plus buzzer and LED.
+- `random_behavior.py` - idle-mode loop that forever picks a random
+  confirmed-working move and performs it, with a random pause in between.
+  Stop it with `GET http://<ip>/api?p=/py/vm/break` instead of power-cycling
+  the robot.
 
 ## Run it
 
