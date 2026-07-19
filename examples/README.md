@@ -7,6 +7,10 @@ Runnable Python examples for the KT2, using only the standard library.
   [../docs/kt2/device-api.md](../docs/kt2/device-api.md).
 - `simple_walk.py` - connects to a robot, reads battery level, then makes it
   walk forward, turn, and kick.
+- `device_ide_demo.py` - same walk/turn/kick demo, but written to be pasted
+  straight into the robot's built-in Python IDE (`/apps/ide/`) instead of run
+  from your computer. `q`, `car`, `sleep` etc. only exist in that on-device
+  runtime.
 
 ## Run it
 
