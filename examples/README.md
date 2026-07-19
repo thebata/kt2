@@ -11,6 +11,12 @@ Runnable Python examples for the KT2, using only the standard library.
   straight into the robot's built-in Python IDE (`/apps/ide/`) instead of run
   from your computer. `q`, `car`, `sleep` etc. only exist in that on-device
   runtime.
+- `dance.py` - there's no built-in "dance" action (it's not even in the
+  vendor's generators, see
+  [../docs/kt2/python-api.md](../docs/kt2/python-api.md#naming-and-what-actually-exists)),
+  so this checks for one on your specific unit and otherwise plays a custom
+  routine built only from confirmed-working moves (kicks, punches, flips,
+  turns) plus buzzer and LED.
 
 ## Run it
 
